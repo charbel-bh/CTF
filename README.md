@@ -51,7 +51,8 @@ referer et créez une liste blanche (whitelist) pour l'agent utilisateur.
 4. Unvalidated Redirect and Forward attack
 
 URL Forge : ’’index.php?page=redirect&site=malicious_link’’
-FLAG : B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3
+FLAG : 
+B9E775A0291FED784A2D9680FCFAD7EDD6B8CDF87648DA647AAF4BBA288BCAB3
 
 Comment vous protéger :
 
