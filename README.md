@@ -4,7 +4,7 @@ MCS 26.4
 
 PROJET : CTF
 
-1. SQL Injection 1 :
+1) SQL Injection 1 :
 
 Search section of the find members page :
 
@@ -25,7 +25,7 @@ stockée est défini et stocké dans la base de données elle-même, puis appel�
 l'application. Ces deux techniques ont la même eXicacité pour prévenir l'injection SQL,
 votre organisation devrait donc choisir l'approche qui a le plus de sens pour vous.
 
-2. SQL Injection 2 :
+2) SQL Injection 2 :
 
 FLAG : f2a29020ef3132e01dd61df97fd33ec8d7fcd1388cc9601e7db691d17d4d6188
 
@@ -33,7 +33,7 @@ Comment vous protéger :
 
 Pareil que le 1.
 
-3. Cross-Site Request Recovery :
+3) Cross-Site Request Recovery :
 
 HTTP header manipulation :
 - Referer : https://www.nsa.gov/
@@ -48,7 +48,7 @@ voir rendus publics ! Vérifiez également côté serveur si l'en-tête origin/r
 présent et si sa valeur correspond à l'origine cible. Créez une vérification stricte pour le
 referer et créez une liste blanche (whitelist) pour l'agent utilisateur.
 
-4. Unvalidated Redirect and Forward attack
+4) Unvalidated Redirect and Forward attack
 
 URL Forge : ’’index.php?page=redirect&site=malicious_link’’
 
@@ -65,7 +65,7 @@ pourront pas rediriger ou transférer vers des pages non autorisées. Vous pouve
 pour une redirection. Cette solution est cependant risquée, car des erreurs dans le
 filtrage peuvent rendre certains vecteurs d'attaque possibles.
 
-5. Web Parameter Tampering
+5) Web Parameter Tampering
 
 Request Payload : sujet=42&valeur=42
 
@@ -78,7 +78,7 @@ aider à réduire cette vulnérabilité, ou en évitant d'inclure des paramètre
 de requête. Utilisez également une validation côté serveur pour comparer les données
 avec toutes les entrées.
 
-6. Path Traversal Attack
+6) Path Traversal Attack
 
 Search Member : 192.168.1.210/?page=../../../../etc/shadow
 
